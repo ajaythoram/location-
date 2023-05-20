@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    padding: 10px;
+}
+#curr_container{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.lat_long{
+    display: flex;
+    gap: 200px;
+}
+#container{
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap : 8px
+}
+#enter_details{
+    color: white;
+ display: flex;
+ gap: 8px;
+ flex-direction: column;
+ 
+}
+#enter_details input{
+    background-color:black;
+    outline: none;
+    color: white;
+}
+#enter_details button{
+    background-color: #ffffff;
+    width: 100px;
+}
+input:focus{
+    outline: none;
+}
+#result_container{
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#result_container input{
+    background-color: black;
+    color: white;
+    
+}
+
+#container2{
+    padding: 20px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    gap : 8px
+}
+p{
+    display: none;
+}
